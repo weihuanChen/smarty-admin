@@ -1,7 +1,7 @@
-项目名：[mini-vue-router]，git 仓库地址：[https://github.com/weihuanChen/smarty-admin.git] 。本项目第一负责人为 `[weihuanChen]`。
+项目名：[smraty-admin]，git 仓库地址：[https://github.com/weihuanChen/smarty-admin.git] 。本项目第一负责人为 `[weihuanChen]`。
 
 ## 描述
-从0开始搭建后台管理,使用Vite创建
+从0开始搭建后台管理,使用技术栈为Vue3 + Vite + Pinia
 
 ## 如何运行
 
