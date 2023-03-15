@@ -15,6 +15,8 @@
     "@vitejs/plugin-vue": "^4.0.0",
     "pinia": "^2.0.33",
     "unocss": "^0.50.4",
+    "unplugin-auto-import": "^0.15.1",
+    "unplugin-vue-components": "^0.24.1",
     "vite": "^4.1.4",
     "vite-plugin-pages": "^0.29.0",
     "vue": "^3.2.47",

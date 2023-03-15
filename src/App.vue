@@ -7,7 +7,7 @@
 import { useUserStore } from "./stores/user";
 const user = useUserStore();
 // import { ref } from "vue";
-// const num = ref(0);
+const num = ref(0);
 // const add = () => {
 //   num.value++;
 // };

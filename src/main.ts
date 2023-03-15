@@ -1,10 +1,10 @@
-import { install } from "./modules/pinia";
+
 // import { add } from "~/add";
 // const s: string = "hello ts";
 // console.log(s + add(3,3));
 // document.querySelector("#app")!.innerHTML = "hello";
 
-import { createApp, h } from "vue";
+// import { createApp, h } from "vue";
 import App from "./App.vue";
 import { createRouter, createWebHistory } from "vue-router";
 import routes from "~pages";
