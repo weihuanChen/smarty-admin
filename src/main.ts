@@ -26,6 +26,6 @@ const router = createRouter({
     },
   ],
 });
-
+import "uno.css";
 const pinia = createPinia()
 createApp(App).use(router).use(pinia).mount("#app");
