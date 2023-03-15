@@ -3,6 +3,7 @@ import path from "path";
 import Vue from "@vitejs/plugin-vue";
 import Unocss from "unocss/vite";
 import { presetUno, presetAttributify, presetIcons } from "unocss";
+import Pages from 'vite-plugin-pages'
 export default defineConfig({
   resolve: {
     alias: {
@@ -16,5 +17,8 @@ export default defineConfig({
     Unocss({
       presets: [presetUno(), presetAttributify(), presetIcons()],
     }),
+    Pages({
+      extensions: ['vue', 'md'],
+      }),
   ],
 });

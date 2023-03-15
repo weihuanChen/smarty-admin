@@ -16,6 +16,7 @@
     "pinia": "^2.0.33",
     "unocss": "^0.50.4",
     "vite": "^4.1.4",
+    "vite-plugin-pages": "^0.29.0",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"
   }
