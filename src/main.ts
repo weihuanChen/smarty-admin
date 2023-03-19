@@ -7,6 +7,7 @@
 // import { createApp, h } from "vue";
 import App from "./App.vue";
 import { createRouter, createWebHistory } from "vue-router";
+import "nprogress/nprogress.css";
 //import routes from "~pages";
 // import { createPinia } from "pinia";
 import { setupLayouts } from 'virtual:generated-layouts'
@@ -28,7 +29,7 @@ const app = createApp(App);
 Object.values(
   import.meta.glob("./modules/*.ts", { eager: true })
 ).forEach((i: any) => {
-  i.install?.({ app });
+  i.install?.({ app,router,isClient:true });
 });
 app.use(router)
 app.mount("#app");

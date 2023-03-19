@@ -15,6 +15,7 @@
     "@types/node": "^18.15.0",
     "@unocss/preset-icons": "^0.50.4",
     "@vitejs/plugin-vue": "^4.0.0",
+    "nprogress": "^0.2.0",
     "pinia": "^2.0.33",
     "unocss": "^0.50.4",
     "unplugin-auto-import": "^0.15.1",
@@ -25,5 +26,8 @@
     "vue": "^3.2.47",
     "vue-i18n": "^9.2.2",
     "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@types/nprogress": "^0.2.0"
   }
 }

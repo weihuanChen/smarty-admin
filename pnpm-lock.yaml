@@ -6,6 +6,7 @@ specifiers:
   '@types/node': ^18.15.0
   '@unocss/preset-icons': ^0.50.4
   '@vitejs/plugin-vue': ^4.0.0
+  nprogress: ^0.2.0
   pinia: ^2.0.33
   unocss: ^0.50.4
   unplugin-auto-import: ^0.15.1
@@ -23,6 +24,7 @@ dependencies:
   '@types/node': 18.15.0
   '@unocss/preset-icons': 0.50.4
   '@vitejs/plugin-vue': 4.0.0_vite@4.1.4+vue@3.2.47
+  nprogress: 0.2.0
   pinia: 2.0.33_vue@3.2.47
   unocss: 0.50.4_vite@4.1.4
   unplugin-auto-import: 0.15.1
@@ -1458,6 +1460,10 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       path-key: 3.1.1
+    dev: false
+
+  /nprogress/0.2.0:
+    resolution: {integrity: sha512-I19aIingLgR1fmhftnbWWO3dXc0hSxqHQHQb3H8m+K3TnEn/iSeTZZOyvKXWqQESMwuUVnatlCnZdLBZZt2VSA==}
     dev: false
 
   /object-inspect/1.12.3:

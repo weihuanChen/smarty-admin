@@ -1,7 +1,7 @@
 <template>
   <!-- <button @click="add">{{ num }}</button> -->
   <!-- <button @click="user.add(1)" py="2" class="px-4 bg-green-500">{{ user.count }}</button> -->
-  <button>{{ t('hello') }}</button>
+  <!-- <button>{{ t('hello') }}</button> -->
   <router-view></router-view>
 </template>
 <script setup lang="ts">
@@ -12,8 +12,7 @@
 // const add = () => {
 //   num.value++;
 
-import { useI18n } from "vue-i18n";
-
 // };
-const {t} = useI18n()
+// import { useI18n } from "vue-i18n";
+// const {t} = useI18n()
 </script>

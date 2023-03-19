@@ -7,6 +7,7 @@ import AutoImport from "unplugin-auto-import/vite";
 import Pages from "vite-plugin-pages";
 import Components from "unplugin-vue-components/vite";
 import Layouts from "vite-plugin-vue-layouts";
+import VueI18n from "@intlify/vite-plugin-vue-i18n";
 export default defineConfig({
   resolve: {
     alias: {
@@ -35,5 +36,10 @@ export default defineConfig({
       dirs: ["src/components","src/pages/**/components"],
     }),
     Layouts(),
+    VueI18n({
+      runtimeOnly: true,
+      compositionOnly: true,
+      include: [path.resolve(__dirname, "locales/**")],
+    }),
   ],
 });
