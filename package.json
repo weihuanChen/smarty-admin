@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@iconify/json": "^2.2.36",
+    "@intlify/vite-plugin-vue-i18n": "^7.0.0",
     "@types/node": "^18.15.0",
     "@unocss/preset-icons": "^0.50.4",
     "@vitejs/plugin-vue": "^4.0.0",
@@ -19,7 +21,9 @@
     "unplugin-vue-components": "^0.24.1",
     "vite": "^4.1.4",
     "vite-plugin-pages": "^0.29.0",
+    "vite-plugin-vue-layouts": "^0.8.0",
     "vue": "^3.2.47",
+    "vue-i18n": "^9.2.2",
     "vue-router": "^4.1.6"
   }
 }

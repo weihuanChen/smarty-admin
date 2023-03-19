@@ -90,3 +90,7 @@ const router = useRouter();
     </div>
   </div>
 </template>
+<route lang="yaml">
+  meta:
+    layout: login
+  </route>

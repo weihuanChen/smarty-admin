@@ -7,8 +7,11 @@
 // import { createApp, h } from "vue";
 import App from "./App.vue";
 import { createRouter, createWebHistory } from "vue-router";
-import routes from "~pages";
-import { createPinia } from "pinia";
+//import routes from "~pages";
+// import { createPinia } from "pinia";
+import { setupLayouts } from 'virtual:generated-layouts'
+import generatedRoutes from 'virtual:generated-pages'
+const routes = setupLayouts(generatedRoutes)
 //运行时阶段vue不具备模板语法，所以纯vue只能用render函数写
 // const App = {
 //   render() {
