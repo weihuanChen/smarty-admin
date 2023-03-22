@@ -23,17 +23,19 @@ export default defineConfig({
     }),
     Pages({
       extensions: ["vue", "md"],
-      exclude:["**/components/*.vue"]
+      exclude: ["**/components/*.vue"],
     }),
     AutoImport({
-      imports: ["vue", "vue-router", "pinia"],
+      imports: ["vue", "vue-router", "pinia", "@vueuse/core", "@vueuse/head"],
       dts: "src/auto-imports.d.ts",
+      dirs: ["src/composables", "src/store"],
+      vueTemplate: true, //支持Vue 模版自动引入
     }),
     Components({
       extensions: ["vue"],
       include: [/\.vue$/],
       dts: "src/components.d.ts",
-      dirs: ["src/components","src/pages/**/components"],
+      dirs: ["src/components", "src/pages/**/components"],
     }),
     Layouts(),
     VueI18n({
